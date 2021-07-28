@@ -1,0 +1,17 @@
+/* google font imports */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Bebas Neue', cursive;
+}
+p,a,strong,span,ul,ol,li,div{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  width: 90%;
+}

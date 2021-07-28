@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Shoes Online Store</title>
+  <link rel="shortcut icon" href="https://ashik-ashik/github.io/cool-shop/favicon/ashik.ico" type="image/x-icon">
+
+  <!-- tailwind css -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  <header class="bg-red-100">
+    <nav class="container mx-auto">
+      <div class="flex justify-between items-center">
+        <a href="#">
+          <img class="h-7" src="./Logo.png" alt="">
+        </a>
+        <div class="menu lg:flex items-center space-x-4 hidden">
+          <a class="text-gray-700 font-medium text-sm py-5 px-4 hover:bg-red-200 hover:text-red-700 transition" href="#">Home</a>
+          <a class="text-gray-700 font-medium text-sm py-5 px-4 hover:bg-red-200 hover:text-red-700 transition" href="#">Product</a>
+          <a class="text-gray-700 font-medium text-sm py-5 px-4 hover:bg-red-200 hover:text-red-700 transition" href="#">Contact Us</a>
+          <a class="text-gray-700 font-medium text-sm py-5 px-4 hover:bg-red-200 hover:text-red-700 transition" href="#">About Us</a>
+        </div>
+        <button class="mobile-toggler lg:hidden py-3 px-5 bg-red-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="text-white h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- mobile menu -->
+      <div class="mobile-menu mt-5 hidden">
+        <a class="block hover:bg-red-200 p-3 font-medium" href="#">Home</a>
+        <a class="block hover:bg-red-200 p-3 font-medium" href="#">Product/a>
+        <a class="block hover:bg-red-200 p-3 font-medium" href="#">About</a>
+        <a class="block hover:bg-red-200 p-3 font-medium" href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+  
+    <!-- hero section -->
+    <section class="hero bg-red-100 py-8">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
+          <div class="img row-start-2 lg:row-start-1">
+            <img class="w-3/4" src="./images/hero-min.png" alt="">
+          </div>
+          <div class="text-left space-y-3">
+            <h2 class="lg:text-6xl md:text-4xl text-2xl uppercase font-semibold"><span class="text-yellow-500">Nike React</span> <br> <span>Infinity run 2</span></h2>
+            <p class="w-full lg:w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, fuga!</p>
+            <a href="#" class="px-7 py-4 uppercase font-semibold text-white inline-block bg-blue-700 hover:bg-blue-900 rounded-lg transition">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+              </svg>
+               Buy Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- causal shoes section-->
+    <section class="causal-shoes py-6">
+      <div class="container mx-auto">
+        <h2 class="text-3xl uppercase text-gray-700">causal Shoes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
+          <!-- shoes item -->
+          <div class="shoe p-5 rounded-lg shadow-lg">
+            <div class="p-4 bg-gray-100 rounded-lg shadow-sm">
+              <img src="./images/causal-1.png" alt="" class="w-3/4 mx-auto">
+            </div>
+            <div class="space-y-2 pt-3">
+              <h3 class="text-2xl uppercase text-gray-700">Nike Show</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, odit.</p>
+              <a href="#" class="px-7 py-4 uppercase font-semibold text-white inline-block bg-blue-700 hover:bg-blue-900 rounded-lg transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+                 Buy Now
+              </a>
+            </div>
+          </div>
+          
+          <!-- shoes item -->
+          <div class="shoe p-5 rounded-lg shadow-lg">
+            <div class="p-4 bg-gray-100 rounded-lg shadow-sm">
+              <img src="./images/causal-2.png" alt="" class="w-3/4 mx-auto">
+            </div>
+            <div class="space-y-2 pt-3">
+              <h3 class="text-2xl uppercase text-gray-700">Sneakers Skate Shoe </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, odit.</p>
+              <a href="#" class="px-7 py-4 uppercase font-semibold text-white inline-block bg-blue-700 hover:bg-blue-900 rounded-lg transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+                 Buy Now
+              </a>
+            </div>
+          </div>
+          
+          <!-- shoes item -->
+          <div class="shoe p-5 rounded-lg shadow-lg">
+            <div class="p-4 bg-gray-100 rounded-lg shadow-sm">
+              <img src="./images/causal-3.png" alt="" class="w-3/4 mx-auto">
+            </div>
+            <div class="space-y-2 pt-3">
+              <h3 class="text-2xl uppercase text-gray-700">Sneakers Basketball shoe</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, odit.</p>
+              <a href="#" class="px-7 py-4 uppercase font-semibold text-white inline-block bg-blue-700 hover:bg-blue-900 rounded-lg transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+                 Buy Now
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- formal shoes section-->
+    <section class="formal-shoes py-6">
+      <div class="container mx-auto">
+        <h2 class="text-3xl uppercase text-gray-700">formal Shoes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
+          <!-- shoes item -->
+          <div class="shoe p-5 rounded-lg shadow-lg">
+            <div class="p-4 rounded-lg">
+              <img src="./images/foraml-1.png" alt="" class="w-3/4 mx-auto">
+            </div>
+            <div class="space-y-2 pt-3">
+              <h3 class="text-2xl uppercase text-gray-700">Prestige High-Cut Leather </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, odit.</p>
+              <a href="#" class="px-7 py-4 uppercase font-semibold text-white inline-block bg-blue-700 hover:bg-blue-900 rounded-lg transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+                 Buy Now
+              </a>
+            </div>
+          </div>
+          
+          <!-- shoes item -->
+          <div class="shoe p-5 rounded-lg shadow-lg">
+            <div class="p-4 rounded-lg">
+              <img src="./images/formal-2.png" alt="" class="w-3/4 mx-auto">
+            </div>
+            <div class="space-y-2 pt-3">
+              <h3 class="text-2xl uppercase text-gray-700">Slip-On Formal Shoe</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, odit.</p>
+              <a href="#" class="px-7 py-4 uppercase font-semibold text-white inline-block bg-blue-700 hover:bg-blue-900 rounded-lg transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+                 Buy Now
+              </a>
+            </div>
+          </div>
+          
+          <!-- shoes item -->
+          <div class="shoe p-5 rounded-lg shadow-lg">
+            <div class="p-4 rounded-lg">
+              <img src="./images/formal-3.png" alt="" class="w-3/4 mx-auto">
+            </div>
+            <div class="space-y-2 pt-3">
+              <h3 class="text-2xl uppercase text-gray-700">Slip-On Formal Shoe</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, odit.</p>
+              <a href="#" class="px-7 py-4 uppercase font-semibold text-white inline-block bg-blue-700 hover:bg-blue-900 rounded-lg transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                </svg>
+                 Buy Now
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <!-- features section -->
+    <section class="features py-8">
+      <div class="container mx-auto">
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center">
+          <div class="feature-1 flex flex-col text-center lg:text-left lg:flex-row items-center shadow-lg p-4 md:space-x-4 space-y-3">
+            <img src="./images/icons/home.png" class="w-16" alt="">
+            <div class="text">
+              <h3 class="text-gray-700 text-2xl font-semibold">Find the Perfect Fit</h3>
+              <p>Everybody is different, which is why we
+                offer styles for every body.</p>
+            </div>
+          </div>
+          <div class="feature-2 row-span-3 row-start-1 lg:col-start-2">
+            <img src="./images/icons/shopping.png" alt="">
+          </div>
+          <div class="feature-3 flex flex-col text-center lg:text-left lg:flex-row items-center shadow-lg p-4 md:space-x-4 space-y-3">
+            <img src="./images/icons/box.png" class="w-16" alt="">
+            <div class="text">
+              <h3 class="">Free Exchanges</h3>
+              <p>One of the many reasons you can shop
+                with peace of pay them for mind.</p>
+            </div>
+          </div>
+          <div class="feature-3 flex flex-col text-center lg:text-left lg:flex-row items-center shadow-lg p-4 md:space-x-4 space-y-3">
+            <img src="./images/icons/support.png" class="w-16" alt="">
+            <div class="text">
+              <h3 class="">Contact Our Seller</h3>
+              <p>They are here to help you. That's quite 
+                literally what we pay them for.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <!-- custom script -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
